@@ -7,9 +7,20 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>06_Project- Data Analytics Landing Page</title>
+    <style>
+        .section1{
+            clip-path: polygon(0 0, 100% 0, 99% 89%, 0% 100%);
+        }
+        .section5 {
+            clip-path: polygon(0 11%, 100% 0, 100% 91%, 0% 100%);
+        }
+        /* #logo{
+            clip-path: polygon(0 14%, 100% 1%, 100% 100%, 0% 100%);
+        } */
+    </style>
 </head>
 <body>
-    <section class="section1 mt-8">
+    <section class="section1 pt-8 bg-gradient-to-br from-cyan-300 to-blue-400 pb-[15%] ">
         <nav class="flex justify-around items-center">
             <div><img src="./images/Logo.png" alt="" srcset=""></div>
           <div class="flex items-center gap-10">
@@ -21,7 +32,7 @@
              
             </ul>
             <div>
-                <button class="text-blue-400 border-2 border-blue-400 px-6 py-2 rounded-full text-lg font-medium" type="submit">Start free trail</button>
+                <button class="text-blue-900 border-2 border-blue-900 px-6 py-2 rounded-full text-lg font-medium" type="submit">Start free trail</button>
             </div>
           </div>
         </nav>
@@ -32,7 +43,7 @@
                  <p>Your data with</p>
                  <p>real-time analytics</p>
              </div>
-             <div class="text-gray-400 pb-6 text-2xl font-bold">
+             <div class="text-gray-600 pb-6 text-2xl font-bold">
                  <p>Harness the potential of Big Data Analytics & cloud Services</p>
                  <p>and become a data-driven organization with Needle tail</p>
              </div>
@@ -139,9 +150,10 @@
                 <div class="rightside">
                     <img src="./images/image 6.png" alt="" width="950px">
                 </div>
+                
         </section>
-        <section class="section5 pb-10">
-                <div class="text-5xl text-center font-semibold">
+        <section class="section5 pb-10 bg-gradient-to-r from-cyan-100 to-blue-200 py-72">
+                <div class="text-5xl text-center font-semibold " id="logo">
                     <p>"What I love about SullivanAnalytics is the easy way we can collaborate even if</p>
                     <p>there is a lot of people involved in the process"</p>
                 </div>
@@ -151,14 +163,14 @@
                 <p class="text-2xl text-center font-bold">Rowan Sullivan</p>
                 <p class="text-2xl text-center font-bold">CTO @ SullivanAnalytics</p>
                </div>
-               <hr class="h-px border-0 bg-gray-300 mx-10 mt-10" />
+               <hr class="h-px border-0 bg-blue-300 mx-80 mt-10" />
                <div>
-                <div class="flex justify-around items-center pt-10">
-                    <img src="./images/Logo.png" alt="" srcset="">
-                    <img src="./images/Logo.png" alt="" srcset="">
-                    <img src="./images/Logo.png" alt="" srcset="">
-                    <img src="./images/Logo.png" alt="" srcset="">
-                    <img src="./images/Logo.png" alt="" srcset="">
+                <div class="flex justify-center items-center pt-10 pb-32 space-x-40">
+                    <img src="./images/Logo.png" alt="" srcset="" width="150px">
+                    <img src="./images/Logo.png" alt="" srcset="" width="150px">
+                    <img src="./images/Logo.png" alt="" srcset="" width="150px">
+                    <img src="./images/Logo.png" alt="" srcset="" width="150px">
+                    <img src="./images/Logo.png" alt="" srcset="" width="150px">
                 </div>
                </div>
             </section>
@@ -183,7 +195,7 @@
                         <img src="./images/Logo.png" alt="" srcset="" width="150px">
                     </div>
                 </div>
-                <div class="bg-violet-100 px-10  overflow-visible">
+                <div class="bg-violet-200 px-10  overflow-visible">
                     <div class="rightside bg-white shadow-lg px-10 py-4 rounded-xl relative bottom-20">
                         <div class="placard">
                          <div class="py-6">
